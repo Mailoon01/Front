@@ -67,3 +67,25 @@ p{
     font-size: 11px; 
     text-align: center; 
 }
+@media (max-width:475px){
+    body,section{
+        flex-direction: column;
+    }section{
+        width: 400px;
+        height: 1500px;
+        margin-top: 500px;
+    }p{
+        font-size: 18px;
+        margin-right: 20px;
+        font-weight: bold;
+    }div{
+        height: 400px;
+        padding: 60px;
+    }button{
+        margin-top: 30px;
+    }div:nth-child(1){
+        border-radius: 5px 5px 0 0;
+    }div:nth-child(3){
+        border-radius: 0 0 5px 5px;
+    }
+}
