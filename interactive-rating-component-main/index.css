@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "overpass";
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.first,
+.second {
+    background-color: hsl(215, 22%, 15%);
+    width: 450px;
+    min-height: 450px;
+    border-radius: 35px;
+    padding: 35px;
+}
+
+.second {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Star {
+    margin: 1px 0 20px 0;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #262f38;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+ul {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.rates-select {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    background-color: #262f38;
+    text-align: center;
+}
+
+.rates-select:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition: all 0.4s ease-in-out
+}
+
+.rates-select:focus {
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.4s ease-in-out;
+}
+
+.submit {
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 35px;
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    transition: all .5s ease-in-out
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+article div {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #262f38;
+    color: hsl(25, 97%, 53%);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+span {
+    margin: 0 5px;
+}
+
+article~article p {
+    text-align: center;
+}
+
+.attribution {
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    color: #ffff;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

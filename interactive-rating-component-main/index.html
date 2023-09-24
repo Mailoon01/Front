@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main>
+    <article class="first ">
+      <img class="Star" src="./images/icon-star.svg" alt="Star">
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <ul>
+        <li><button class="rates-select">1</button></li>
+        <li><button class="rates-select">2</button></li>
+        <li><button class="rates-select">3</button></li>
+        <li><button class="rates-select">4</button></li>
+        <li><button class="rates-select">5</button></li>
+      </ul>
+      <button class="submit" id="submit">Submit</button>
+    </article>
+    <article class="second hidden">
+      <img src="./images/illustration-thank-you.svg" alt="">
+      <div>
+        You selected <span id="rate"> 0 </span> out of 5
+      </div>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+      <button class="submit" id="again">Rate again.</button>
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Mailoon01
+    </div>
+  </main>
+</body>
+</html>
