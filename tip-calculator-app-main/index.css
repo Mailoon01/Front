@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 41%, 84%);
+    line-height: inherit;
+}
+
+.input_Relative>img {
+    max-width: 30px;
+    max-height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 60%;
+    scale: 1.5;
+    transform: translateY(-50%);
+}
+
+body>div {
+    margin: 2% 0;
+}
+
+.logo {
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: hsl(172, 67%, 45%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 40px;
+    gap: 40px;
+}
+
+section {
+    width: 55%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+section~section {
+    padding: 20px;
+    height: 100%;
+    background-color: hsl(183, 100%, 15%);
+    gap: 15px;
+}
+
+.buttons_container {
+    width: 220px;
+}
+
+.container_button-3 {
+    margin: 1% 0;
+}
+
+.container_button-3>button {
+    margin: 5px 0;
+}
+
+.input_Relative {
+    position: relative;
+    width: 100%;
+}
+
+
+article {
+    margin: 15px 0;
+}
+
+.input_Button {
+    width: 30%;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+}
+
+input:hover {
+    border: 2px hsl(183, 100%, 15%) solid;
+}
+
+button:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+h3,
+h5 {
+    color: hsl(172, 67%, 45%);
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: hsl(185 41% 84% / var(--tw-bg-opacity));
+    padding: 0.25rem;
+    text-align: right;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: hsl(183 100% 15% / var(--tw-text-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+button {
+    font-size: 26px;
+    cursor: pointer;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    border: none;
+}
+
+div>h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+.container_results {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+
+#resetAll {
+    margin-top: 50px;
+    width: 100%;
+    height: 45px;
+    /* Aumentado la altura */
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.resetAll:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    section~section {
+        padding: 15px;
+    }
+
+    .container_button-3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .input_Button {
+        width: 100%;
+    }
+}
+.attribution{
+    width: 100%;
+    font-size: 14px;
+}
