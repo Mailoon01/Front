@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}main{
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    /* background-color: hsl(215, 51%, 70%);letra Etherium */
+}.img_Center > img{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}h2{
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+} p{
+    width: 300px;
+    color: hsl(215, 51%, 70%);
+}article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.ethereum{
+    display: flex;
+    justify-content: center;
+    color: hsl(178, 100%, 50%);
+}.clock{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}article{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 0 0;
+    border-bottom:1px solid hsl(215, 32%, 27%);
+}.div_footer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}.div_footer p{
+    width: 200px;
+}span img{
+    margin-right: 5px;
+}span{
+    color: hsl(0, 0%, 100%);
+}span ~ span{
+    color: hsl(215, 51%, 70%);
+}.Avatar{
+    height: 30px;
+    border:1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.attribution { color: hsl(0, 0%, 100%); font-size: 14px; text-align: center;margin-top: 20px; }
+.attribution a { color: hsl(228, 45%, 44%); }
